@@ -64,6 +64,8 @@ form{
   bottom:35px;
   right: 5px;
   font-size: 100px;
+  text-shadow: -1px 0 pink, 0 1px pink, 1px 0 pink, 0 -1px pink;
+  
 }
 .content{
   display: flex;
