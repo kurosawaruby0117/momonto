@@ -1,16 +1,83 @@
 body {
-  color: #34495e;
+  color: white;
 }
-
+.js-clock{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  color:whitesmoke; 
+  height: 100px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-shadow: -1px 0 blue, 0 1px blue, 1px 0 blue, 0 -1px blue;
+}
+.dis,
+.greetings{
+  display: none;
+}
+form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  color:whitesmoke;  
+  
+}
 .clicked {
   color: #7f8c8d;
 }
 
-.form,
-.greetings{
-  display: none;
-}
+
 
 .showing{
   display:block;
+}
+
+@keyframes fadeIn{
+  from{
+    opacity: 0;;
+  }
+  to{
+    opacity: 1;
+  }
+}
+.bgImage{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  animation: fadeIn .5s linear;
+}
+.js-greetings{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+  color:papayawhip;
+  text-shadow: -1px 0 palevioletred, 0 1px palevioletred, 1px 0 palevioletred, 0 -1px palevioletred;
+}
+.js-date{
+  position: absolute;
+  bottom:35px;
+  right: 5px;
+}
+.content{
+  display: flex;
+  justify-content: center;
+}
+.js-toDolist{
+ 
+ 
+}
+li{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color:plum ;
+  font-size: 30px;
+  margin-bottom: 10px;
+  text-shadow: -1px 0 palevioletred, 0 1px palevioletred, 1px 0 palevioletred, 0 -1px palevioletred;
 }
