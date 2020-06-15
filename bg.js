@@ -1,5 +1,5 @@
 const body=document.querySelector("body");
-const IMG_NUMBER=4;
+const IMG_NUMBER=27;
 
 function handleLoad(){
     console.log("ho");
