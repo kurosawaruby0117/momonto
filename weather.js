@@ -9,7 +9,7 @@ function getWeather(lat,lon){
     }).then(function(json){
         const tempature=json.main.temp;
         const place=json.name;
-        weather.innerText=`${tempature} @ ${place}`;
+        weather.innerText=`${tempature}*C @ ${place}`;
     });
 
 }
