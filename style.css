@@ -76,7 +76,7 @@ li{
   display: flex;
   flex-direction: row;
   align-items: center;
-  color:plum ;
+  color:white ;
   font-size: 30px;
   margin-bottom: 10px;
   text-shadow: -1px 0 palevioletred, 0 1px palevioletred, 1px 0 palevioletred, 0 -1px palevioletred;
