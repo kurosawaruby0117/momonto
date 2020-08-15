@@ -28,6 +28,9 @@ form{
   color: #7f8c8d;
 }
 
+input{
+ border: none; background: transparent;
+}
 
 
 .showing{
