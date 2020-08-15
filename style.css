@@ -32,11 +32,11 @@ form{
   margin-top: 30px;
   font-size: 20px;
   height: 130px;
-  width: 500px;
 }
 
 .js-form input{
-  height: 40px;
+  width: 700px;
+  height: 70px;
   font-size: 70px;
   color:beige;
   text-shadow: -1px 0 palevioletred, 0 1px palevioletred, 1px 0 palevioletred, 0 -1px palevioletred;
